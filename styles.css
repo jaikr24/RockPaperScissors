@@ -1,0 +1,127 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.nav {
+    height: 70px;
+    background-color: #091928;
+    color: white;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.selection-container {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.selection-box {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 80px 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: .4s;
+}
+
+#rock {
+    background-color: blueviolet;
+}
+
+#paper {
+    background-color: mediumaquamarine;
+}
+
+#scissors {
+    background-color: orange;
+}
+
+
+#rock:hover {
+    scale: 1.1;
+}
+
+#paper:hover {
+    scale: 1.1;
+}
+
+#scissors:hover {
+    scale: 1.1;
+}
+
+.score-container {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.score {
+    text-align: center;
+    font-size: 30px;
+}
+
+.players {
+    text-align: center;
+    font-size: 20px;
+}
+
+td {
+    padding: 0px 40px 10px 40px;
+}
+
+.result-box {
+    height: 60px;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+svg {
+    height: 100px;
+    fill: white;
+}
+
+.initial-class {
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+    background-color: lightcoral;
+}
+
+.lost-class {
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+    background-color: red;
+}
+
+.win-class {
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+    background-color: mediumseagreen;
+}
+
+.draw-class {
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+    background-color: cornflowerblue;
+}
