@@ -1,3 +1,4 @@
+<h1>Rock Paper Scissors</h1>
 This is the simple Rock, Paper, and Scissors game made with:
 <ul>
   <li>HTML</li>
